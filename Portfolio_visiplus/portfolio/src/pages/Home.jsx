@@ -19,7 +19,7 @@ function Home() {
           </div>
 
           <p className="mb-6 text-sm uppercase tracking-[0.3em] text-indigo-400">
-            Chef de projet IT junior
+            Ingénierie logicielle & gestion de projet
           </p>
 
           <h1 className="mb-6 text-5xl font-bold leading-tight md:text-7xl">
@@ -30,7 +30,7 @@ function Home() {
           </h1>
 
           <p className="mb-10 max-w-2xl text-base leading-8 text-gray-400 md:text-lg">
-            En alternance depuis 3 ans chez MEGATEC, j'ai géré des projets concrets : déploiement de l'ERP Dolibarr, organisation du salon Pollutec avec -26% sur le budget, et cadrage fonctionnel d'une application espace client. J'aime comprendre les besoins terrain et les traduire en solutions. Mon objectif : évoluer vers un poste de Chef de projet IT ou AMOA.
+             En alternance depuis 3 ans chez MEGATEC, j'ai mené des projets concrets : déploiement de l'ERP Dolibarr, organisation du salon Pollutec avec -26% sur le budget, et le développement d'une application espace client (React, Supabase, sécurité des accès). J'aime comprendre les besoins métier et les traduire en solutions concrètes — du cahier des charges jusqu'au code.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
@@ -86,17 +86,17 @@ function Home() {
           </p>
           <div className="flex flex-wrap gap-3">
             <span className="rounded-full bg-indigo-100 px-4 py-2 text-sm font-medium text-indigo-700">
-             Coordination équipes</span>
+             Développement React</span>
             <span className="rounded-full bg-violet-100 px-4 py-2 text-sm font-medium text-violet-700">
-              Gestion budgétaire</span>
+              Supabase</span>
             <span className="rounded-full bg-rose-100 px-4 py-2 text-sm font-medium text-rose-700">
-              Suivi Trello</span>
+              Sécurité RLS</span>
             <span className="rounded-full bg-emerald-100 px-4 py-2 text-sm font-medium text-emerald-700">
-              Déploiement outils</span>
+              Git & déploiement</span>
             <span className="rounded-full bg-orange-100 px-4 py-2 text-sm font-medium text-orange-700">
-              Gestion CMS</span>
+              Intégration ERP</span>
             <span className="rounded-full bg-teal-100 px-4 py-2 text-sm font-medium text-teal-700">
-              Déploiement Dolibarr</span>
+              Analyse du besoin</span>
           </div>
           
           <Link to="/competences" className="mt-6 inline-flex items-center text-indigo-800 font-semibold">

@@ -28,7 +28,7 @@ useEffect(() => {
 
           <div className="flex flex-col leading-tight">
             <span className="font-semibold ">Hawa Bah</span>
-            <span className="text-xs text-gray-400">Chef de projet IT junior</span>
+            <span className="text-xs text-gray-400">Développeuse & Chef de projet junior</span>
           </div>
         </div>
 
