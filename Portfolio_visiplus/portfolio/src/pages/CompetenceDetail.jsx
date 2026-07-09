@@ -4,26 +4,6 @@ import { ClipboardList, Target, BookOpen, TrendingUp, Link2, Clock} from "lucide
 function CompetenceDetail() {
   const { slug } = useParams()
   const competences = [
-  {
-    slug: "esprit-analyse",
-    nom: "Esprit d'analyse",
-    pourcentage: 72,
-    type: "Compétence humaine",
-    definition: "L'esprit d'analyse consiste, à l'aide de différentes informations amassées de différentes manières, à analyser au mieux et à pousser la réflexion sur un problème ou une situation afin d'en comprendre le problème en profondeur. Ce diagnostic permettra par la suite de trouver une solution adaptée au problème ou de réajuster certains éléments.",
-    autocritique: "Je n'ai pas encore l'automatisme de réaliser une analyse et une réflexion poussée et je passe plus directement à la recherche de la résolution du problème.",
-    evolution: "J'ambitionne de gérer des projets plus complexes pour développer mes compétences en analyse fonctionnelle et construire des stratégies plus complètes",
-    preuves: [
-  { titre: "Diagnostic bugs Dolibarr", description: "Lors des bugs rencontrés sur Dolibarr, j'ai pris le temps de faire des recherches sur les forums, de réaliser des tests et d'explorer la documentation pour trouver des solutions, sans recourir à un prestataire externe.", },
-  { titre: "Intégration Dolibarr - équipes réticentes", description: "Lorsque certaines équipes étaient réticentes à utiliser l'outil, j'ai réalisé des entretiens individuels accompagnés de questionnaires envoyés en amont afin de comprendre le fonctionnement, les problèmes possibles et les solutions envisageables.", },
-  { titre: "Analyse besoins application Espace Client", description: "J'ai analysé mes différentes notes de réunion de fin d'année, d'entretiens individuels et d'entretiens avec le client afin de mieux comprendre le besoin et le parcours utilisateur, pour développer une application qui respecterait au mieux la demande.", },
-  ],
-  realisations: [
-  { titre: "Déploiement Dolibarr", slug: "deploiement-dolibarr", },
-  { titre: "Réunions cadrage appli espace client", slug: "espace-client", },
-]
-
-  },
-
 
  {
     slug: "autonomie-operationnelle",
@@ -113,28 +93,6 @@ function CompetenceDetail() {
   },
 
 
-   {
-    slug: "gestion-priorités",
-    nom: "Gestion des priorités",
-    pourcentage: 75,
-    type: "Compétence humaine",
-    definition: "Gérer les priorités, c'est analyser l'ensemble des tâches et mettre en avant celles qui nécessitent une intervention en premier, puis trier les tâches en fonction de leur nécessité et du blocage qu'elles peuvent provoquer selon les timelines des projets. Les imprévus et nouvelles tâches étant constants, il est important de savoir recentrer son équipe sur l'essentiel pour livrer les projets dans les délais.",
-    autocritique: "Je suis efficace sur la priorisation dans des projets avec un périmètre défini. Ma limite : sur des projets multi-équipes avec de nombreuses parties prenantes, les arbitrages deviennent plus complexes.",
-    evolution: "Mon objectif serait de gérer des projets multi-équipes de plus grande envergure et d'apprendre à utiliser des outils plus poussés et utilisés dans le domaine.",
-
-    preuves: [
-  { titre: "Gestion des demandes multiples - MEGATEC", description: "Face aux différentes demandes de l'entreprise liées au site internet, aux fiches techniques, aux imports Dolibarr ou à la création de newsletters clients, il a été important d'analyser les deadlines et le contexte pour choisir la tâche prioritaire selon le profit, la visibilité, la crédibilité et les rendez-vous avec les clients.", },
-  { titre: "Déploiement Dolibarr", description: "En pleine intégration, avec de nombreux éléments à mettre en place, il était crucial de visualiser quels éléments devaient être intégrés en premier pour rendre l'outil fonctionnel le plus rapidement possible, puis d'ajuster et d'ajouter les éléments demandés par les équipes pour améliorer l'utilisation et le confort utilisateur.", },
-  ],
-
-  realisations: [
-  { titre: "Salon 2025", slug: "salon-2025", },
- { titre: "Déploiement Dolibarr", slug: "deploiement-dolibarr", },
-]
-
-  },
-
-
   {
     slug: "rigueur-budgetaire",
     nom: "Rigueur budgétaire",
@@ -178,54 +136,75 @@ function CompetenceDetail() {
 
   } ,
   
-  
 
-
-    {
-    slug: "Gestion-collaboratifs",
-    nom: "Gestion d'outils collaboratifs",
-    pourcentage: 82,
-    type: "Compétence Technique",
-    definition: "Les outils de gestion collaboratif permettent d'avoir une meilleure visibilité sur les parties prenantes du projet, les tâches, les délais et les priorités dans un projet, donc de prendre de meilleures décisions sur l'avancement d'un projet.",
-    autocritique: "Je maîtrise Trello pour des projets de taille moyenne comme le salon. Ma limite : sur des projets complexes multi-équipes qui nécessiteraient d'utiliser d'autres outils que je ne connais pas et que je ne maîtrise pas.",
-    evolution: "Mon objectif des 18 prochains mois : découvrir et utiliser des outils plus largement utilisés dans d'autres entreprises pour la gestion des équipes.",
-
-    preuves: [
-  { titre: "Coordination Salon Pollutec 2025", description: "Board dédié avec checklists, assignations et deadlines par responsable. Résultat : la direction pouvait suivre l'avancement en temps réel sans réunion de statut.", },
-  { titre: "Suivi déploiement Dolibarr", description: "Board dédié au déploiement Dolibarr avec 8 colonnes : Backlog / Questions & aide / Bugs / Réponses & solutions / Demandes de formation / Demandes & axes d'amélioration / Actions en cours / Actions terminées. Permettait de centraliser tous les retours équipes et de ne rien laisser sans réponse.", },
-  { titre: "Développement application Espace Client MEGATEC", description: "Board de suivi du développement de l'application avec gestion des tâches, étapes de validation et remontées client et visibilité complète sur l'avancement du projet.", },
-  
+  {
+  slug: "developpement-frontend",
+  nom: "Développement front-end (React)",
+  pourcentage: 70,
+  type: "Compétence Technique",
+  definition: "Le développement front-end consiste à construire toute la partie visible d'une application : les pages et les écrans avec lesquels l'utilisateur interagit directement. Je travaille avec React, qui permet de construire une interface à partir de composants — des blocs réutilisables qui affichent différentes données sans avoir à les recoder à chaque fois — et avec Tailwind pour la mise en forme. Chez MEGATEC, j'ai développé le front de l'espace client, et j'ai également codé ce portfolio.",
+  autocritique: "Je sais coder des interfaces simples et fonctionnelles en React. Ma limite : sur les parties plus complexes, je m'appuie encore sur de l'aide et de la documentation technique. Cette compétence est centrale dans mon profil, puisqu'elle m'a permis de développer une application réellement utilisée.",
+  evolution: "Mon objectif des 18 prochains mois : développer des interfaces plus techniques en m'appuyant beaucoup moins sur la documentation et gagner en autonomie sur les fonctionnalités avancées.",
+  preuves: [
+    { titre: "Front de l'espace client MEGATEC", description: "J'ai codé les écrans que l'utilisateur manipule une fois connecté : son tableau de bord, l'affichage de ses documents et fiches techniques, la liste des produits en location et la redirection vers le contact. L'interface s'adapte à chaque client connecté." },
+    { titre: "Ce portfolio", description: "Développé en React et Tailwind. J'y ai créé des composants réutilisables (cartes de compétences, cartes de réalisations) : le code parcourt une liste et génère automatiquement l'affichage, au lieu d'écrire chaque bloc à la main." },
   ],
-
   realisations: [
-    { titre: "Salon 2025", slug: "salon-2025", },
-   { titre: "Déploiement Dolibarr ", slug: "deploiement-dolibarr", },
-]
-
-  } ,
-  
-  
-    {
-    slug: "Déploiement-solutions",
-    nom: "Déploiement de solutions numériques",
-    pourcentage: 72,
-    type: "Compétence Technique",
-    definition: "Déployer un outil numérique en entreprise est un processus complet qui nécessite d'abord d'analyser des besoins, de paramétrer, une migration des données, puis une formation aux utilisateurs afin de mieux les accompagner au changement.",
-    autocritique: "Je maîtrise les déploiements d'outils tels que Dolibarr. Ma limite : je n'ai pas encore piloté de déploiement à grande échelle (100+ utilisateurs) ni de migration de données complexe.",
-    evolution: "Mon objectif des 18 prochains mois : piloter un déploiement CRM/ERP pour 20+ utilisateurs.",
-
-    preuves: [
-  { titre: "Déploiement Dolibarr - MEGATEC", 
-    description: "Pilotage bout-en-bout, paramétrage des modules, migration des données depuis Excel, 12 sessions de formation (individuelles et collectives) pour 4 utilisateurs. Résultats : 100% des notes de frais et congés, 80% des factures et commandes gérés dans l'outil. ", },
-  { titre: "Formation outils Zoho - nouveaux entrants", description: "Formation de 2 stagiaires aux outils CRM Zoho et campagnes marketing Zoho dès leur arrivée, avec accompagnement guidé jusqu'à la prise en main autonome.", },
+    { titre: "Projet Espace Client", slug: "espace-client" },
   ],
+},
+  
 
+{
+  slug: "base-de-donnees-supabase",
+  nom: "Intégration back-end & base de données (Supabase)",
+  pourcentage: 65,
+  type: "Compétence Technique",
+  definition: "Le back-end et la base de données, c'est toute la partie invisible qui stocke les informations et les fournit à l'application. J'utilise Supabase, qui me sert à la fois de base de données (pour stocker et récupérer les données) et de système d'authentification sécurisé.",
+  autocritique: "Je sais créer des tables simples, stocker et récupérer des données. Ma limite : je m'appuie encore sur de la documentation technique pour les opérations plus complexes. Cette compétence est essentielle dans mon profil, car c'est elle qui permet à mon application de fonctionner avec de vraies données.",
+  evolution: "Mon objectif des 18 prochains mois : gagner en autonomie sur la conception de bases de données et savoir écrire des requêtes plus complexes sans m'appuyer sur la documentation.",
+  preuves: [
+    { titre: "Base de données de l'espace client", description: "Les documents de chaque client et les informations produits sont stockés dans Supabase. Quand un client se connecte, l'application va récupérer ses documents dans la base et les affiche à l'écran." },
+    { titre: "Authentification sécurisée", description: "Je m'appuie sur le système Auth de Supabase : les mots de passe sont chiffrés et gérés par Supabase, de sorte que personne — pas même moi — n'a accès aux identifiants des clients en clair." },
+  ],
   realisations: [
-   { titre: "Déploiement Dolibarr", slug: "deploiement-dolibarr", },
-  { titre: "Onboarding équipe", slug: "onboarding-stagiaires", },
-]
+    { titre: "Projet Espace Client", slug: "espace-client" },
+  ],
+},
 
-  }  
+{
+  slug: "securite-rls",
+  nom: "Sécurité applicative (RLS)",
+  pourcentage: 60,
+  type: "Compétence Technique",
+  definition: "La sécurité applicative consiste à protéger les données des utilisateurs pour que chacun n'accède qu'à ce qui le concerne. Sur l'espace client MEGATEC, j'ai mis en place la RLS (Row Level Security) de Supabase : une règle appliquée directement sur la base de données qui garantit que chaque client ne voit que ses propres documents.",
+  autocritique: "J'ai réussi à mettre en place des règles RLS en m'appuyant sur de la documentation technique. Ma limite : la démarche n'est pas encore automatique pour moi, et je progresse encore sur les règles de sécurité plus avancées. Cette compétence est importante dans mon profil, car elle garantit la confidentialité des données clients — un enjeu de confiance essentiel pour une entreprise.",
+  evolution: "Mon objectif des 18 prochains mois : gagner en autonomie sur la mise en place des règles RLS et savoir écrire des règles de sécurité plus avancées sans m'appuyer sur la documentation.",
+  preuves: [
+    { titre: "Isolation des données clients", description: "Quand un client se connecte, il n'a accès qu'à ses propres documents ; il ne peut pas voir ceux des autres clients. Cette règle est appliquée au niveau de la base de données elle-même, pas seulement de l'affichage — donc les données restent protégées même si l'interface était contournée." },
+    { titre: "Authentification + sécurité", description: "Couplée au système Auth de Supabase, la RLS identifie chaque client connecté et ne lui renvoie que les données qui lui appartiennent." },
+  ],
+  realisations: [
+    { titre: "Projet Espace Client", slug: "espace-client" },
+  ],
+},
+
+{
+  slug: "versioning-deploiement",
+  nom: "Versioning & déploiement (Git / Netlify)",
+  pourcentage: 65,
+  type: "Compétence Technique",
+  definition: "Le versioning et le déploiement couvrent la sauvegarde du code et sa mise en ligne. J'utilise Git pour conserver mon code, garder l'historique de mes modifications et pouvoir revenir à une version antérieure. Le déploiement consiste à rendre l'application accessible en ligne.",
+  autocritique: "Je comprends le fonctionnement de Git et de GitFlow, et je sais versionner mon code et déployer sur Netlify. Ma limite : je n'ai pas appliqué GitFlow assez tôt dans mon projet, donc je ne l'ai pas encore mis en œuvre en conditions réelles. Cette compétence est essentielle dans mon profil, car elle garantit de garder la main sur son projet et de toujours disposer d'un filet de sécurité.",
+  evolution: "Mon objectif des 18 prochains mois : prendre l'habitude de démarrer chaque projet avec Git et GitFlow dès le départ, pour garantir la propreté du code, la traçabilité des versions et un filet de sécurité permanent. À terme, automatiser aussi la mise en ligne à chaque modification.",
+  preuves: [
+    { titre: "Versioning avec Git", description: "J'ai connecté mon dépôt GitHub à mon projet portfolio via le terminal de mon IDE, pour sauvegarder mon code, suivre son historique et pouvoir revenir à une version antérieure." },
+    { titre: "Déploiement sur Netlify", description: "J'ai mis mon portfolio en ligne sur Netlify, le rendant accessible par une URL publique. J'ai également déployé l'application espace client MEGATEC sur Netlify." },
+  ],
+  realisations: [
+    { titre: "Projet Espace Client", slug: "espace-client" },
+  ],
+},
 
   
 ]

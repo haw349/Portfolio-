@@ -7,15 +7,14 @@ function Competences() {
     { nom: "Autonomie opérationnelle", pourcentage: 85, slug: "autonomie-operationnelle" },
     { nom: "Pédagogie et transmission", pourcentage: 75, slug: "pédagogie-transmission" },
     { nom: "Écoute active", pourcentage: 75, slug: "ecoute-active" },
-    { nom: "Esprit d'analyse", pourcentage: 72, slug: "esprit-analyse" },
     { nom: "Coordination d'équipes", pourcentage: 70, slug: "coordination-equipes" },
-    { nom: "Gestion des priorités", pourcentage: 70, slug: "gestion-priorités" },
   ]
   
   const competencesTechniques = [
-    { nom: "Intégration d'ERP", pourcentage: 80, slug: "Intégration-ERP" },
-    { nom: "Gestion d'outils collaboratifs", pourcentage: 85, slug: "Gestion-collaboratifs" },
-    { nom: "Déploiement de solutions numériques", pourcentage: 75, slug: "Déploiement-solutions" },
+    { nom: "Développement front-end (React)", pourcentage: 70, slug: "developpement-frontend" },
+    { nom: "Intégration back-end & base de données (Supabase)", pourcentage: 65, slug: "base-de-donnees-supabase" },
+    { nom: "Sécurité applicative (RLS)", pourcentage: 60, slug: "securite-rls" },
+    { nom: "Versioning & déploiement (Git / Netlify)", pourcentage: 65, slug: "versioning-deploiement" },
   ]
 
 
