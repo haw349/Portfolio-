@@ -182,10 +182,12 @@ lendemain : "Cette expérience a mis en évidence l'importance d'une passation s
     image : "https://plus.unsplash.com/premium_photo-1700830193308-73775665bcb0?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     nom: "Projet Espace Client",
  competences_mobilisees: [
-  { titre: "Esprit d'analyse"},
   { titre: "Écoute active"},
-  { titre: "Gestion des priorités"},],
-    presentation: "Dans le cadre de la digitalisation de la relation client chez MEGATEC, un projet d'application Espace Client a été lancé. L'objectif : offrir aux clients un accès direct à leurs documents, commandes et historiques, sans passer par les équipes internes pour chaque demande. Ce projet m'a été confié en phase de cadrage : recueil des besoins, compréhension des parcours utilisateurs, analyse des attentes de la direction et du client final pour produire un cahier des charges fonctionnel sur lequel le développement pourrait s'appuyer.",
+  { titre: "Développement front-end (React)"},
+  { titre: "Intégration back-end & base de données (Supabase)"},
+  { titre: "Sécurité applicative (RLS)"},
+  { titre: "Versioning & déploiement (Git / Netlify)"},],
+    presentation: "Dans le cadre de la digitalisation de la relation client chez MEGATEC, un projet d'application Espace Client a été lancé. L'objectif : offrir aux clients un accès direct à leurs documents et fiches techniques, sans passer par les équipes internes pour chaque demande. J'ai mené ce projet du cadrage jusqu'au développement : recueil des besoins et cahier des charges, puis développement de l'application (front-end React, base de données et authentification via Supabase, sécurité des accès) et mise en ligne. Aujourd'hui, l'application permet à chaque client de se connecter à son espace de manière sécurisée et d'accéder uniquement à ses propres documents.",
     objectif: "L'objectif était de définir précisément ce que devait faire l'application avant que la moindre ligne de code ne soit écrite. L'enjeu : éviter le syndrome du tunnel développer une application qui ne correspond pas aux vrais besoins des utilisateurs faute d'un recueil suffisant. Le risque identifié : des attentes divergentes entre la direction (vision stratégique) et les utilisateurs finaux (usage quotidien), pouvant mener à des allers-retours en cours de développement.",
  
   etapes: [
@@ -193,6 +195,9 @@ lendemain : "Cette expérience a mis en évidence l'importance d'une passation s
    { titre: "Réunions de cadrage fonctionnel", description: "Organisation de réunions structurées avec la direction et les équipes concernées pour comprendre les parcours utilisateurs, les fonctionnalités attendues et les priorités.", },
      { titre: "Modélisation des besoins", description: "Structuration des besoins identifiés en fonctionnalités priorisées, avec description des parcours utilisateurs et des cas d'usage principaux.", },
        { titre: "Production du cahier des charges fonctionnel", description: "Rédaction du document de référence pour le développement : fonctionnalités, priorités, contraintes techniques et critères de validation.", },
+       { titre: "Développement de l'interface (front-end)", description: "Développement des écrans de l'application en React et Tailwind : page de connexion, tableau de bord, affichage des documents et fiches techniques, liste des produits en location.", },
+  { titre: "Base de données & authentification (Supabase)", description: "Mise en place de la base de données et de l'authentification via Supabase : stockage des documents et des informations, gestion sécurisée des comptes clients.", },
+  { titre: "Sécurisation et mise en ligne", description: "Mise en place de la sécurité des accès (RLS) pour que chaque client ne voie que ses propres documents, puis déploiement de l'application en ligne sur Netlify.", },
 ],
   acteurs: [
   { titre: "Moi", description: "Chef de projet en phase de cadrage : recueil des besoins, analyse, coordination et production du cahier des charges.", },
@@ -202,10 +207,10 @@ lendemain : "Cette expérience a mis en évidence l'importance d'une passation s
  ],
 
   resultats:  [
-  { titre: "Besoins identifiés", description: "dès la phase de cadrage", },
-  { titre: "Cahier des charges", description: "fonctionnel produit", },
-  { titre: "Parcours utilisateurs", description: "modélisés et validés", },
-  { titre: "Base solide", description: "pour le développement", },
+  { titre: "Application livrée", description: "du cahier des charges au déploiement", },
+  { titre: "Connexion sécurisée", description: "chaque client accède à son espace privé", },
+  { titre: "Accès isolé par client", description: "grâce à la sécurité RLS", },
+  { titre: "En ligne", description: "déployée sur Netlify", },
  ],
 description_resultat : "Le projet a permis de poser un cadre clair avant le développement, limitant les risques d'incompréhension entre les équipes. Le cahier des charges fonctionnel a servi de référence commune pour aligner direction, équipes internes et développeur.",
 
