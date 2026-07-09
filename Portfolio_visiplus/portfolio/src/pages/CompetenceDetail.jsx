@@ -121,7 +121,7 @@ function CompetenceDetail() {
     pourcentage: 85,
     type: "Compétence Technique",
     definition: "Dolibarr est un ERP open-source, qui couvre un large panel de services (CRM, comptabilité, gestion des stocks, RH) et permet donc de centraliser toutes les données de l'entreprise en un seul logiciel très personnalisable. Les ERP sont aujourd'hui importants dans un monde digitalisé où toutes les informations sont de préférence stockées digitalement par sécurité et centralisées. Cela permet également d'automatiser grâce aux systèmes des tâches plus répétitives. Comme avec le workflow Dolibarr qui permet de ne pas ressaisir les mêmes informations pour le suivi d'un même dossier.",
-    autocritique: "Je maîtrise Dolibarr à un niveau opérationnel avancé : déploiement, migration, formation et résolution de bugs. Ma limite : je ne fais pas de développement de modules personnalisés (PHP) ni d'intégrations API complexes avec d'autres systèmes. Mon profil visé est AMOA, pas développeur ERP.",
+    autocritique: "Je maîtrise Dolibarr à un niveau opérationnel avancé : déploiement, migration, formation et résolution de bugs. Ma limite : je ne développe pas encore de modules personnalisés en PHP ni d'intégrations API complexes entre systèmes. C'est un axe de progression, à la croisée de ma double compétence métier et développement.",
     evolution: "Mon objectif des 18 prochains mois : déployer des outils plus complexes à plus grande échelle, créer des rapports personnalisés et explorer les alternatives ERP du marché",
 
     preuves: [
