@@ -26,7 +26,7 @@ function Contact() {
 
     <div className="flex gap-3 mb-3">
    <div className= "bg-indigo-50 rounded-xl w-11 h-10 flex items-center justify-center">
-            <Mail />
+          <Phone />
           </div>
   <div>
     <p className="mb-1 text-sm  text-gray-400">
@@ -41,15 +41,15 @@ function Contact() {
 
       <div className="flex gap-3 mb-3">
    <div className= "bg-indigo-50 rounded-xl w-11 h-10 flex items-center justify-center">
-            <Phone />
+              <Mail />
           </div>
   <div>
     <p className="mb-1 text-sm  text-gray-400">
       Email
       </p>
-    <p className="text-gray-800 font-semibold  text-sm leading-6 mb-6">
+    <a href="mailto:hbah73719@gmail.com" className="text-gray-800 font-semibold text-sm leading-6 mb-6 hover:text-indigo-600">
       hbah73719@gmail.com
-      </p>
+      </a>
 </div>
      </div>
 
@@ -74,71 +74,14 @@ function Contact() {
             <Link />
           </div>
   <div>
-    <p className="mb-1 text-sm  text-gray-400">
+    <p className="mb-1 text-sm text-gray-400">
       LinkedIn
       </p>
-    <p className="text-gray-800 font-semibold  text-sm leading-6 mb-6">
-      https://www.linkedin.com/in/hawa-bah-82a8291b0/
-      </p>
+    <a href="https://www.linkedin.com/in/hawa-bah-82a8291b0/" target="_blank" rel="noopener noreferrer" className="text-gray-800 font-semibold text-sm leading-6 mb-6 hover:text-indigo-600">
+      Voir mon profil
+      </a>
 </div>
      </div>
-
-</div>
-
-<div>
-   <h6 className="font-semibold mb-7 text-xl">
-    Envoyer un message
-   </h6>
-
-<div className="flex gap-3 mb-3">
-   <label className="text-gray-500 ">
-    Nom *
-   </label>
-
-
- <label className="text-gray-500 ">
-  Email *
-  </label>
-</div>
-
-<div className="flex gap-3 mb-3">
-<div className="rounded-2xl border border-gray-50 bg-white p-3 shadow-sm" >
-<input type="text" placeholder="Votre nom" />  
-  </div>
-<div className="rounded-2xl border border-gray-50 bg-white p-3 shadow-sm" >
-<input type="text" placeholder="Votre@email.com" />  
-  </div>
-
-</div>
-
- <label className="text-gray-500 "> 
-  Sujet 
-  </label> <br />
- <div className="rounded-2xl border border-gray-50 bg-white p-3 shadow-sm" >
- <input type="text" placeholder="Object de votre message" /> 
- </div>
-
-
-<br />
-
-
- <label className="text-gray-500 "> 
-  <br />Message * 
-  <br /></label>
- <div className="rounded-2xl border border-gray-50 bg-white p-4 shadow-sm" >
- <textarea placeholder="Message" ></textarea> 
- </div>
-<br />
- <button className="rounded-full bg-indigo-600 px-8 py-2 font-medium text-white transition hover:bg-indigo-500">
-  <div className="flex gap-3 mb-1">
-    <Send size={16} /> Envoyer
-  </div>
-
- </button>
-
-
-
-
 
 </div>
 
