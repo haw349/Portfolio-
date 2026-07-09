@@ -10,12 +10,13 @@ function Competences() {
     { nom: "Coordination d'équipes", pourcentage: 70, slug: "coordination-equipes" },
   ]
   
-  const competencesTechniques = [
-    { nom: "Développement front-end (React)", pourcentage: 70, slug: "developpement-frontend" },
-    { nom: "Intégration back-end & base de données (Supabase)", pourcentage: 65, slug: "base-de-donnees-supabase" },
-    { nom: "Sécurité applicative (RLS)", pourcentage: 60, slug: "securite-rls" },
-    { nom: "Versioning & déploiement (Git / Netlify)", pourcentage: 65, slug: "versioning-deploiement" },
-  ]
+ const competencesTechniques = [
+  { nom: "Développement front-end (React)", pourcentage: 70, slug: "developpement-frontend" },
+  { nom: "Intégration back-end & base de données (Supabase)", pourcentage: 65, slug: "base-de-donnees-supabase" },
+  { nom: "Sécurité applicative (RLS)", pourcentage: 60, slug: "securite-rls" },
+  { nom: "Versioning & déploiement (Git / Netlify)", pourcentage: 65, slug: "versioning-deploiement" },
+  { nom: "Intégration d'ERP", pourcentage: 85, slug: "Intégration-ERP" },
+]
 
 
   

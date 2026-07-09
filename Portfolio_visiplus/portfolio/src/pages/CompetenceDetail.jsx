@@ -4,7 +4,7 @@ import { ClipboardList, Target, BookOpen, TrendingUp, Link2, Clock} from "lucide
 function CompetenceDetail() {
   const { slug } = useParams()
   const competences = [
-
+ 
  {
     slug: "autonomie-operationnelle",
     nom: "Autonomie opérationnelle",
@@ -115,7 +115,6 @@ function CompetenceDetail() {
 
   } , 
 
-
    {
     slug: "Intégration-ERP",
     nom: "Intégration d'ERP",
@@ -200,6 +199,7 @@ function CompetenceDetail() {
   preuves: [
     { titre: "Versioning avec Git", description: "J'ai connecté mon dépôt GitHub à mon projet portfolio via le terminal de mon IDE, pour sauvegarder mon code, suivre son historique et pouvoir revenir à une version antérieure." },
     { titre: "Déploiement sur Netlify", description: "J'ai mis mon portfolio en ligne sur Netlify, le rendant accessible par une URL publique. J'ai également déployé l'application espace client MEGATEC sur Netlify." },
+
   ],
   realisations: [
     { titre: "Projet Espace Client", slug: "espace-client" },
