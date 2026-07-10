@@ -40,7 +40,7 @@ function Competences() {
             </p>
 
    <div className="rounded-2xl border border-gray-100 bg-gray-50 p-8 shadow-sm mb-10">
-  <h3 className="text-xl font-bold mb-8">Schéma comparatif — Vue d'ensemble</h3>
+  <h3 className="text-xl font-bold mb-8">Schéma comparatif - Vue d'ensemble</h3>
   
   <div className="grid grid-cols-2 gap-12">
     

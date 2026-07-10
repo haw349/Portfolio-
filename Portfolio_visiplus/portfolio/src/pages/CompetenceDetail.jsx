@@ -115,7 +115,7 @@ function CompetenceDetail() {
 
   } , 
 
-   {
+   { 
     slug: "Intégration-ERP",
     nom: "Intégration d'ERP",
     pourcentage: 85,
@@ -141,7 +141,7 @@ function CompetenceDetail() {
   nom: "Développement front-end (React)",
   pourcentage: 70,
   type: "Compétence Technique",
-  definition: "Le développement front-end consiste à construire toute la partie visible d'une application : les pages et les écrans avec lesquels l'utilisateur interagit directement. Je travaille avec React, qui permet de construire une interface à partir de composants — des blocs réutilisables qui affichent différentes données sans avoir à les recoder à chaque fois — et avec Tailwind pour la mise en forme. Chez MEGATEC, j'ai développé le front de l'espace client, et j'ai également codé ce portfolio.",
+  definition: "Le développement front-end consiste à construire toute la partie visible d'une application : les pages et les écrans avec lesquels l'utilisateur interagit directement. Je travaille avec React, qui permet de construire une interface à partir de composants des blocs réutilisables qui affichent différentes données sans avoir à les recoder à chaque fois et avec Tailwind pour la mise en forme. Chez MEGATEC, j'ai développé le front de l'espace client, et j'ai également codé ce portfolio.",
   autocritique: "Je sais coder des interfaces simples et fonctionnelles en React. Ma limite : sur les parties plus complexes, je m'appuie encore sur de l'aide et de la documentation technique. Cette compétence est centrale dans mon profil, puisqu'elle m'a permis de développer une application réellement utilisée.",
   evolution: "Mon objectif des 18 prochains mois : développer des interfaces plus techniques en m'appuyant beaucoup moins sur la documentation et gagner en autonomie sur les fonctionnalités avancées.",
   preuves: [
@@ -164,7 +164,7 @@ function CompetenceDetail() {
   evolution: "Mon objectif des 18 prochains mois : gagner en autonomie sur la conception de bases de données et savoir écrire des requêtes plus complexes sans m'appuyer sur la documentation.",
   preuves: [
     { titre: "Base de données de l'espace client", description: "Les documents de chaque client et les informations produits sont stockés dans Supabase. Quand un client se connecte, l'application va récupérer ses documents dans la base et les affiche à l'écran." },
-    { titre: "Authentification sécurisée", description: "Je m'appuie sur le système Auth de Supabase : les mots de passe sont chiffrés et gérés par Supabase, de sorte que personne — pas même moi — n'a accès aux identifiants des clients en clair." },
+    { titre: "Authentification sécurisée", description: "Je m'appuie sur le système Auth de Supabase : les mots de passe sont chiffrés et gérés par Supabase, de sorte que personne pas même moi n'a accès aux identifiants des clients en clair." },
   ],
   realisations: [
     { titre: "Projet Espace Client", slug: "espace-client" },
@@ -177,10 +177,10 @@ function CompetenceDetail() {
   pourcentage: 60,
   type: "Compétence Technique",
   definition: "La sécurité applicative consiste à protéger les données des utilisateurs pour que chacun n'accède qu'à ce qui le concerne. Sur l'espace client MEGATEC, j'ai mis en place la RLS (Row Level Security) de Supabase : une règle appliquée directement sur la base de données qui garantit que chaque client ne voit que ses propres documents.",
-  autocritique: "J'ai réussi à mettre en place des règles RLS en m'appuyant sur de la documentation technique. Ma limite : la démarche n'est pas encore automatique pour moi, et je progresse encore sur les règles de sécurité plus avancées. Cette compétence est importante dans mon profil, car elle garantit la confidentialité des données clients — un enjeu de confiance essentiel pour une entreprise.",
+  autocritique: "J'ai réussi à mettre en place des règles RLS en m'appuyant sur de la documentation technique. Ma limite : la démarche n'est pas encore automatique pour moi, et je progresse encore sur les règles de sécurité plus avancées. Cette compétence est importante dans mon profil, car elle garantit la confidentialité des données clients un enjeu de confiance essentiel pour une entreprise.",
   evolution: "Mon objectif des 18 prochains mois : gagner en autonomie sur la mise en place des règles RLS et savoir écrire des règles de sécurité plus avancées sans m'appuyer sur la documentation.",
   preuves: [
-    { titre: "Isolation des données clients", description: "Quand un client se connecte, il n'a accès qu'à ses propres documents ; il ne peut pas voir ceux des autres clients. Cette règle est appliquée au niveau de la base de données elle-même, pas seulement de l'affichage — donc les données restent protégées même si l'interface était contournée." },
+    { titre: "Isolation des données clients", description: "Quand un client se connecte, il n'a accès qu'à ses propres documents ; il ne peut pas voir ceux des autres clients. Cette règle est appliquée au niveau de la base de données elle-même, pas seulement de l'affichage donc les données restent protégées même si l'interface était contournée." },
     { titre: "Authentification + sécurité", description: "Couplée au système Auth de Supabase, la RLS identifie chaque client connecté et ne lui renvoie que les données qui lui appartiennent." },
   ],
   realisations: [
