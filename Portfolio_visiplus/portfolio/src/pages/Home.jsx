@@ -30,7 +30,7 @@ function Home() {
           </h1>
 
           <p className="mb-10 max-w-2xl text-base leading-8 text-gray-400 md:text-lg">
-             En alternance depuis 3 ans chez MEGATEC, j'ai mené des projets concrets : déploiement de l'ERP Dolibarr, organisation du salon Pollutec avec -26% sur le budget, et le développement d'une application espace client (React, Supabase, sécurité des accès). J'aime comprendre les besoins métier et les traduire en solutions concrètes — du cahier des charges jusqu'au code.
+             En alternance depuis 3 ans chez MEGATEC, j'ai mené des projets concrets : déploiement de l'ERP Dolibarr, organisation du salon Pollutec avec -26% sur le budget, et le développement d'une application espace client (React, Supabase, sécurité des accès). J'aime comprendre les besoins métier et les traduire en solutions concrètes du cahier des charges jusqu'au code.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">

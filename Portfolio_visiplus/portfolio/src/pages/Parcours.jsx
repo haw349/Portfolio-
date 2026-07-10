@@ -10,11 +10,11 @@ function Parcours() {
       slug: "eil",
       date: "Mars 2024 – Avr. 2026",
       type: "Formation · Alternante",
-      titre: "Étudiante en Ingénierie Logicielle — EIL",
+      titre: "Étudiante en Ingénierie Logicielle - EIL",
       organisation: "Visiplus Academy (ISCOD)",
       realisations: ["Salon 2025", "Déploiement Dolibarr", "Refonte site MEGATEC", "Onboarding équipe", "Projet Espace Client"],
       competences: ["Rigueur budgétaire", "Autonomie opérationnelle", "Pédagogie et transmission" , "Écoute active", "Esprit d'analyse", "Coordination d'équipes", "Gestion des priorités", "Intégration d'ERP", "Gestion d'outils collaboratifs", "Déploiement de solutions numériques"],
-      soustitre: "Étudiante en alternance — Ingénierie Logicielle",
+      soustitre: "Étudiante en alternance - Ingénierie Logicielle",
       description: "ISCOD est une école spécialisée dans la formation par alternance, orientée vers les métiers du numérique et du management. La pédagogie est axée sur la pratique en entreprise, avec un accompagnement en ligne. Ce format m'a permis de monter en compétence directement sur le terrain, en parallèle de modules théoriques sur la gestion de projet, les systèmes d'information et le développement logiciel.",
     },
 
@@ -26,7 +26,7 @@ function Parcours() {
       organisation: "MEGATEC",
       realisations: ["Salon 2025", "Déploiement Dolibarr", "Refonte site MEGATEC", "Onboarding équipe", "Projet Espace Client"],
       competences: ["Rigueur budgétaire", "Autonomie opérationnelle", "Pédagogie et transmission" , "Écoute active", "Esprit d'analyse", "Coordination d'équipes", "Gestion des priorités", "Intégration d'ERP", "Gestion d'outils collaboratifs", "Déploiement de solutions numériques"],
-      soustitre: "Alternante — Chef de projet digital junior",
+      soustitre: "Alternante - Chef de projet digital junior",
       description: "MEGATEC est une PME spécialisée dans la mesure de la qualité de l'air et des environnements industriels. J'y ai piloté la digitalisation des processus internes (déploiement ERP Dolibarr), la refonte du site web (CMS Strapi), l'organisation du Salon Pollutec Lyon 2025 et le cadrage de l'application Espace Client. Mon rôle m'a placée à l'interface entre les équipes métiers, la direction et les prestataires techniques.",
     },
 
@@ -37,7 +37,7 @@ function Parcours() {
       titre: "Étudiante en Chargée de projet digital",
       organisation: "Visiplus Academy (ISCOD)",
       competences: ["Autonomie opérationnelle", "Coordination d'équipes", "Gestion des priorités","Gestion d'outils collaboratifs",],
-      soustitre: "Étudiante en alternance — Chargée de projet digital",
+      soustitre: "Étudiante en alternance - Chargée de projet digital",
       description: "Première formation en alternance chez ISCOD, spécialisée dans la gestion de projet digital. Cette période m'a permis d'acquérir les bases du pilotage de projets numériques, de la communication digitale et de la coordination d'équipes, en parallèle de la pratique terrain chez MEGATEC.",
     },
 
