@@ -23,7 +23,7 @@ function Presentation() {
             Rigueur et sens des responsabilités
             </h4>
           <p className="text-gray-500 text-base leading-8 mb-8">
-            Un Trello est attitré à chaque projet afin d'en gérer la visibilité sur l'ensemble des tâches, leurs dates, leurs avancements et leurs priorités. Pour le salon, un planning et un budget prévisionnel ont été mis en place, les dépenses finales ont été inférieures aux prévisions de 26%.
+            Un Trello est attitré à chaque projet afin d'obtenir une meilleure visibilité sur l'ensemble des tâches, leurs dates, leurs avancements et leurs priorités. Pour le salon, un planning et un budget prévisionnel ont été réalisés et les dépenses finales ont été inférieures aux prévisions de 26%.
             </p>
         </div>
 
@@ -35,7 +35,7 @@ function Presentation() {
             Partage des connaissances
             </h4>
           <p className="text-gray-500 text-base leading-8 mb-8">
-            Des formations individuelles personnalisées métier et collectives ont été animées et mises en place, accompagnées d'un manuel et de mini-guides écrits remis à disposition de chaque participant. J'ai été chargée de former des futurs employés au sein de la compagnie Rouge Rouge 3.
+            Des formations individuelles personnalisées métier et collectives ont été mises en place, soutenues par un manuel et des mini-guides écrits déposés dans un dossier partagé accessible facilement à tout moment. J'ai été chargée de former des futurs employés au sein de la compagnie Rouge Rouge 3.
             </p>
         </div>
 
@@ -47,7 +47,7 @@ function Presentation() {
             Fiabilité et respect des engagements
             </h4>
           <p className="text-gray-500 text-base leading-8 mb-8">
-            Les formations et réunions fixées sont respectées, le délai des tâches est généralement observé par ordre de priorité grâce à Trello. Pour le salon, les communications, invitations et planning ont été communiqués dans les temps, garantissant la crédibilité de MEGATEC.
+            Les formations et réunions fixées sont généralement bien respectées, le délai des tâches est facilement observable par ordre de priorité et date grâce à Trello. Pour le salon, les communications, invitations et planning ont été communiqués dans les temps, permettant à MEGATEC de participer au salon sans prise de tête car tout a été préparé en amont.
             </p>
         </div>
 
@@ -59,7 +59,7 @@ function Presentation() {
             Apprentissage continu
             </h4>
           <p className="text-gray-500 text-base leading-8 mb-8">
-            Dolibarr, Trello et Strapi sont des outils qui ont été appris en autonomie complète, sans prestataire externe. L'utilisation de l'IA pour la rédaction de fiches techniques et les traductions a permis un gain de temps significatif avec relecture et validation systématique de ma part.
+           Dolibarr, Trello et Strapi sont des outils qui ont été appris en autonomie, sans prestataire externe. L'utilisation de l'IA pour la rédaction de fiches techniques et les traductions a permis de gagner du temps avec relecture et validation  de ma part.
             </p>
         </div>
 
@@ -80,19 +80,19 @@ function Presentation() {
         Objectif à 3 ans
         </h6>
        <p className="text-gray-500 text-base leading-8 mb-6">
-       Mon objectif à court terme est d'évoluer vers un poste de consultante AMOA.
+       Mon objectif à court terme serait d'évoluer vers un poste de consultante AMOA. Ce qui m'attire dans ce métier est le lien entre le besoin et la solution. J'ai appris au sein de MEGATEC l'importance de comprendre avant tout la vraie demande du client, de la traduire puis de la formaliser, afin de mieux accompagner mon équipe de manière claire vers sa réalisation technique et son adoption.
         </p>
        <h6 className="mb-2 text-base font-bold text-gray-900">
         Missions visées
         </h6>
        <p className="text-gray-500 text-base leading-8 mb-6">
-        Les missions qui m'attirent : coordonner des équipes, déployer des outils, former et créer des guides opérationnels. 
+        Les missions qui m'attirent sont le recueil et la traduction des besoins en solutions concrètes, la partie migration des données si nécessaire selon le projet, la formation des équipes, ainsi que la création de guides opérationnels facilement navigables afin d’améliorer la facilité d'adoption des outils dans leur quotidien. Ma double compétence, compréhension du métier et développement, me permet de bien comprendre mes interlocuteurs techniques et les utilisateurs.
         </p>
        <h6 className="mb-3 text-base font-bold text-gray-900 ">
         Parcours envisagé
         </h6>
        <p className="text-gray-500 text-base leading-8 mb-6">
-        Chargée de projet  →  Consultante ERP → Consultante Digital</p>
+        Chargée de projet → Consultante AMOA / ERP → Consultante Digital. À moyen terme, je souhaite rejoindre une entreprise de plus grande taille pour gagner en expérience terrain, découvrir comment les projets y sont pilotés et m'approprier des méthodes de travail plus structurées.</p>
        </div>
        </div>
       </section>
@@ -115,7 +115,7 @@ function Presentation() {
         Rigueur et sens des responsabilités
         </h6>
       <p className="text-gray-500 text-sm leading-6 mb-6">
-        Salon 2025 : optimisation du budget avec une réduction de 26 % par rapport aux prévisions.
+       Salon 2025 : optimisation du budget avec une réduction de 26 % par rapport aux prévisions, grâce à des recherches rigoureuses de tous nos besoins pendant le salon tout en respectant le budget et la recherche de qualité. La rigueur me sert autant dans la gestion d'un budget que dans le suivi précis des tâches et des délais d'un projet.
       </p>
        </div>
      </div>
@@ -127,7 +127,7 @@ function Presentation() {
         Autonomie opérationnelle
         </h6>
       <p className="text-gray-500 text-sm leading-6 mb-6">
-        Apprentissage et utilisation indépendante de Dolibarr pour la gestion des notes de frais, des commandes clients et des bons de livraison.
+       Apprentissage et utilisation de nombreux nouveaux outils comme Mailchimp, Canva, Trello et Dolibarr (notes de frais, commandes clients, bons de livraison), mais aussi montée en compétence en autonomie sur des outils techniques comme React et Supabase, en m'appuyant sur la documentation ou des tutos. Je sais avancer seule sur un sujet nouveau, sans avoir peur de prendre des initiatives.
         </p>
  </div>
      </div>
@@ -140,7 +140,7 @@ function Presentation() {
         Pédagogie et transmission
         </h6>
       <p className="text-gray-500 text-sm leading-6 mb-6">
-        Formation de cinq utilisateurs à Dolibarr pour faciliter son adoption et leur permettre d'atteindre l'autonomie.
+      Formation de cinq utilisateurs sur Dolibarr afin de faciliter son adoption et l'autonomie de leur utilisation au sein de l'entreprise. Ces formations sont accompagnées de mini-guides écrits. J'aime former mes équipes et les accompagner pour rendre accessible ce qui paraît complexe, une qualité utile aussi bien pour former des équipes que pour expliquer un choix technique à des personnes non techniques.
         </p>
 </div>
      </div>
@@ -153,7 +153,20 @@ function Presentation() {
         Esprit d'analyse
         </h6>
       <p className="text-gray-500 text-sm leading-6 mb-6">
-       Capacité à interpréter les pics de trafic du site Internet sur Google Analytics suite à une newsletter ou un post sur les réseaux sociaux.
+       Capacité à interpréter les pics de trafic du site sur Google Analytics suite à une newsletter ou un post. Cet esprit d'analyse me sert aussi à rechercher des stratégies adaptées à l'entreprise par rapport aux données factuelles afin d'augmenter les performances du site.
+        </p>
+</div>
+     </div>
+
+
+     <div className="flex gap-3 mb-3">
+  <div className="mt-1 w-2 h-2 rounded-full bg-indigo-500 shrink-0"></div>
+  <div>
+      <h6 className="mb-1 text-base font-bold text-gray-900">
+       Qualité et sécurité du code
+        </h6>
+      <p className="text-gray-500 text-sm leading-6 mb-6">
+       Attention portée à la qualité et à la sécurité de ce que je développe. Sur l'application espace client, j'ai mis en place des règles d'accès (RLS) garantissant que chaque client ne voit que ses propres documents, une exigence de confidentialité que je considère comme non négociable dans un projet.
         </p>
 </div>
      </div>
@@ -176,7 +189,7 @@ function Presentation() {
       Planification de voyages
       </h6>
     <p className="text-gray-500 text-sm leading-6 mb-6">
-      Organisation de voyages en optimisant les coûts et les activités (transport, logement, visites). Cette activité me permet de développer mon sens de l'organisation et de la gestion budgétaire.
+     J'aime organiser des voyages en anticipant les coûts et les activités (transport, logement, visites). Je compare les options avec des sites comme Kombo, Google ou Booking. Je planifie les étapes de l'hôtel aux activités et je gère un budget, c'est une façon ludique d'exercer mon sens de l'organisation et de l'anticipation, les mêmes réflexes que dans la gestion d'un projet
       </p>
 </div>
      </div>
@@ -188,7 +201,7 @@ function Presentation() {
       Organisation d'événements
       </h6>
     <p className="text-gray-500 text-sm leading-6 mb-6">
-      Planification de soirées ou d'événements avec gestion du planning et du budget pour plusieurs participants. Cela me permet de travailler la coordination et l'anticipation.
+      J'organise des soirées et des événements pour plusieurs participants, avec gestion du planning, du budget et de la logistique au marketing sur les réseaux sociaux. Coordonner les envies de chacun, anticiper les imprévus, tenir les délais et réaliser des emplois du temps : c'est un vrai terrain d'entraînement à la coordination et à la gestion des priorités.
       </p>
 </div>
      </div>
@@ -198,10 +211,10 @@ function Presentation() {
   <div className="mt-1 w-2 h-2 rounded-full bg-indigo-500 shrink-0"></div>
   <div>
     <h6 className="mb-1 text-base font-bold text-gray-900">
-      Création audiovisuelle
+     Jeux vidéo
       </h6>
     <p className="text-gray-500 text-sm leading-6 mb-6">
-      Réalisation de vidéos et montages à partir de photos et de séquences vidéo via des outils comme Renderforest. Cette activité développe ma créativité et ma sensibilité visuelle.
+    J'aime les jeux vidéo, en particulier les jeux de réflexion comme Professeur Layton. Résoudre des énigmes développe la logique, l'observation et la patience, les mêmes réflexes que face à un problème technique à décortiquer.
       </p>
 </div>
      </div>
@@ -214,7 +227,7 @@ function Presentation() {
       Organisation personnelle
       </h6>
     <p className="text-gray-500 text-sm leading-6 mb-6">
-      Utilisation d'outils de planification comme Trello pour structurer mes projets personnels et professionnels, afin de suivre les tâches et prioriser les actions.
+      J'utilise des outils de planification comme Trello pour structurer mes projets personnels et professionnels, suivre mes tâches et prioriser mes actions. Cette habitude de tout organiser m'aide à rester méthodique et à ne rien laisser au hasard.
       </p>
       
       </div>

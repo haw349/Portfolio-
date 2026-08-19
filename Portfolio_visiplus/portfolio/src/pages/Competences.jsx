@@ -29,7 +29,7 @@ function Competences() {
 
   
 <p className="mb-4 text-sm uppercase tracking-[0.2em] text-indigo-600 font-medium">
-        EIL – Ingénierie Logicielle
+        EIL - Ingénierie Logicielle
         </p>
  <h2 className="mb-7 text-5xl font-bold ">
         Mes 10 compétences
