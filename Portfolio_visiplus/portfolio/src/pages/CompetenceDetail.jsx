@@ -11,8 +11,8 @@ function CompetenceDetail() {
     pourcentage: 85,
     type: "Compétence humaine",
     definition: "Prendre en main des tâches et outils avec initiative sans être supervisé de manière constante. L'autonomie consiste à tester, à observer et à se faire confiance lors de la découverte de nouveaux outils et à l'assimilation de tâches. Elle permet un gain de temps et d'être opérationnel plus rapidement.",
-    autocritique: "J'ai tendance à chercher seule trop longtemps avant de demander de l'aide, ce qui peut ralentir l'avancement.",
-    evolution: "Mon objectif des 18 prochains mois : prendre en main Jira et assurer les comptes rendus de réunions et suivis de projet en totale autonomie.",
+    autocritique: "J'ai tendance à chercher seule trop longtemps avant de demander de l'aide, ce qui peut ralentir l'avancement. C'est un point sur lequel je progresse : savoir reconnaître le moment où demander de l'aide fait gagner du temps. L'autonomie reste l'une de mes forces : c'est elle qui m'a permis de prendre en main des outils comme Dolibarr, Strapi ou Supabase sans accompagnement extérieur.",
+    evolution: "Mon objectif des 18 prochains mois : renforcer mon autonomie sur des outils de gestion de projet comme Jira (comptes rendus, suivi de projet), mais aussi gagner en autonomie sur les aspects techniques plus complexes (développement, base de données), pour dépendre de moins en moins de la documentation.",
 
     preuves: [
   { titre: "Déploiement Dolibarr", description: "Apprentissage en autonomie complète : documentation officielle, sandbox, forums. J'ai paramétré les modules pour MEGATEC et formé l'équipe sans prestataire externe. Résultat : 2 000€ de consulting évités.", },
@@ -36,7 +36,7 @@ function CompetenceDetail() {
     type: "Compétence humaine",
     definition: "La pédagogie consiste à partager ses connaissances pour faciliter l'assimilation d'outils ou de processus nécessaires au fonctionnement de l'entreprise. Elle permet d'accompagner aussi bien les équipes lors d'un déploiement d'outil que les nouveaux arrivants dans leur intégration.",
     autocritique: "Je maîtrise la formation sur les outils métiers Dolibarr, Zoho, Canva avec des retours positifs. Il me manque encore de l'expérience sur les formations techniques complexes : architecture SI, développement, SQL. Ma pédagogie est opérationnelle, mais la structuration checklists, supports réutilisables est encore en cours.",
-    evolution: "Mon objectif des 18 prochains mois : former des équipes de 10 utilisateurs ou plus sur des outils complexes.",
+    evolution: "Mon objectif des 18 prochains mois : former des équipes plus nombreuses (10 utilisateurs ou plus) sur des outils plus complexes, en structurant davantage mes supports (checklists, guides réutilisables). À terme, je souhaite aussi être capable de transmettre des notions plus techniques, pour faire le lien entre les équipes métier et les équipes de développement.",
 
     preuves: [
   { titre: "Formations Dolibarr - MEGATEC", description: "12 sessions de formation (individuelles et collectives) animées pour 3 utilisateurs. Méthode : démonstration, pratique guidée, mini-guide écrit remis à chaque participant.", },
@@ -80,11 +80,14 @@ function CompetenceDetail() {
     type: "Compétence humaine",
     definition: "Coordonner une équipe, c'est permettre d'aligner les compétences de chacun dans un but clair et précis pour tous. Cela implique de comprendre comment fonctionnent ces équipes, de maintenir une bonne dynamique, de mettre en visibilité les actions de chacun avec les deadlines et tâches associées, et notamment d'assurer une bonne fluidité dans le passage des informations entre chaque service (IT, direction, RH, etc.).",
     autocritique: "Je maîtrise la coordination sur des équipes restreintes où les deadlines sont globalement respectées. Ma limite : apprendre à coordonner des équipes plus réticentes, très occupées, avec des retours irréguliers ou peu impliquées dans le projet. C'est un axe de travail en cours.",
-    evolution: "À moyen terme, je souhaite apprendre à gérer des équipes occupées et réticentes, puis piloter une équipe de 10 à 15 personnes.",
+    evolution: "À moyen terme, je souhaite apprendre à coordonner des équipes plus occupées et parfois réticentes, en travaillant ma communication et mon suivi, puis à piloter une équipe plus large (10 à 15 personnes) sur des projets impliquant plusieurs services.",
 
     preuves: [
   { titre: "Salon Pollutec 2025 – Lyon", description: "Coordination d'une équipe de 3 personnes avec gestion des plannings, des tâches, de l'hébergement et du transport. Animation de points mensuels sur l'avancement et validation des étapes. Résultat : un salon qui s'est déroulé sans encombre, les équipes ont pu se concentrer sur leurs tâches et non sur l'organisation.", },
+  { titre: "Déploiement Dolibarr – coordination inter-services", description: "Coordination entre plusieurs services (comptabilité, commercial, logistique) et la direction autour du déploiement de l'ERP : recueil des besoins de chacun, priorisation et circulation de l'information. Résultat : un outil adopté par des services aux besoins différents.", },
   ],
+
+  
 
   realisations: [
   { titre: "Salon 2025", slug: "salon-2025", },
@@ -99,7 +102,7 @@ function CompetenceDetail() {
     pourcentage: 80,
     type: "Compétence humaine",
     definition: "La rigueur budgétaire consiste à respecter une somme dédiée au départ, tout en optimisant chaque euro à travers des recherches et des comparaisons afin de ne pas rogner sur la qualité ni les résultats attendus. C'est une compétence qui demande de la rigueur dans ses recherches, dans la créativité et la priorisation.",
-    autocritique: "Je n'ai pas encore géré de budget important au-delà de 20k et n'en connais pas les enjeux, le fonctionnement et les contraintes.",
+    autocritique: "Je maîtrise la gestion de budgets sur des projets de taille moyenne, avec de bons résultats (réduction de 26 sur mon projet salon). Ma limite : je n'ai pas encore géré de budget important au-delà de 20 000€, dont je ne connais pas encore tous les enjeux et contraintes. C'est une compétence que je considère comme essentielle dans un rôle de pilotage de projet.",
     evolution: "Mon objectif des 18 prochains mois : piloter un projet avec un budget supérieur à 30k€ et comprendre les contraintes et les attentes liées aux budgets plus importants.",
 
     preuves: [
