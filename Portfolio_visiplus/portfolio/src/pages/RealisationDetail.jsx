@@ -9,10 +9,9 @@ function RealisationDetail() {
     image : "https://plus.unsplash.com/premium_photo-1733306428104-90afe41a4ad5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     nom: "Salon Pollutec Lyon 2025",
  competences_mobilisees: [
-  { titre: "Rigueur budgétaire"},
-  { titre: "Gestion d'outils collaboratifs"},
-  { titre: "Coordination d'équipes"},
-  { titre: "Gestion des priorités"},],
+  { titre: "Rigueur budgétaire", slug: "rigueur-budgetaire"},
+  { titre: "Coordination d'équipes", slug: "coordination-equipes"},
+  { titre: "Autonomie opérationnelle", slug: "autonomie-operationnelle"},],
     presentation: "Le salon Pollutec Lyon est un événement professionnel où plusieurs acteurs de l'environnement se retrouvent afin de partager leurs créations, nouveautés, réseauter ou rencontrer de potentiels prospects. Il s'y déroule chaque année avec un peu plus de 50 000 professionnels répondant présent. Megatec, acteur dans l'environnement et spécialisé dans la mesure de la qualité de l'air, s'y est représenté du 7 au 10 octobre 2025.",
     objectif: "L'objectif principal était d'acquérir au moins 30 leads qualifiés pour rentabiliser le coût du salon. Le budget fixé était de 15 000€. Le risque principal était de ne pas atteindre suffisamment de leads pour justifier l'investissement. Un second risque concernait la logistique car tout problème le jour J aurait impacté l'image de l'équipe sur place.",
  
@@ -52,11 +51,11 @@ lendemain : "Suite aux résultats du salon, la direction souhaite renouveler l'e
     slug: "deploiement-dolibarr",
     image : "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     nom: "Déploiement Dolibarr ",
- competences_mobilisees: [
-  { titre: "Intégration d'ERP"},
-  { titre: "Autonomie opérationnelle"},
-  { titre: "Pédagogie et transmission"},
-{ titre: "Déploiement de solutions numériques"},],
+  competences_mobilisees: [
+  { titre: "Intégration d'ERP", slug: "Intégration-ERP"},
+  { titre: "Autonomie opérationnelle", slug: "autonomie-operationnelle"},
+  { titre: "Pédagogie et transmission", slug: "pédagogie-transmission"},
+  { titre: "Écoute active", slug: "ecoute-active"},],
     presentation: "Dolibarr est un ERP open source multi-services (RH, comptabilité, commercial). Il permet de centraliser toutes les données d'une entreprise. Ce qui en fait sa particularité est son côté open source qui le rend modulable et adaptable selon les besoins, et sa communauté proposant diverses solutions aux problèmes posés. Avant ce déploiement, les données et documents au sein de MEGATEC étaient dispersés sur plusieurs canaux et certains restaient en format papier. Certaines tâches telles que les factures et les suivis de devis étaient également réalisées manuellement.",
     objectif: "L'objectif principal était de digitaliser MEGATEC et de centraliser les données dans un seul outil partagé entre tous les services. Concrètement : supprimer les doublons, les fichiers éparpillés, les échanges par mail pour retrouver une information. Le risque principal était humain : une résistance au changement de la part des équipes, habituées à leurs outils depuis des années.",
  
@@ -97,9 +96,9 @@ lendemain : "Le déploiement de Dolibarr a posé les bases de la transformation 
     image : "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     nom: "Refonte site MEGATEC",
  competences_mobilisees: [
-  { titre: "Autonomie opérationnelle"},
-  { titre: "Coordination d'équipes"},
-  { titre: "Déploiement de solutions numériques"},],
+  { titre: "Autonomie opérationnelle", slug : "autonomie-operationnelle"},
+  { titre: "Coordination d'équipes", slug : "coordination-equipes"},
+  { titre: "Déploiement de solutions numériques", slug : "Intégration-ERP"},],
     presentation: "Dans le cadre de la stratégie de communication de MEGATEC, une refonte complète du site web a été lancée. J'ai participé à ce projet dès le départ : cahier des charges, prise en main du CMS Strapi, rédaction des contenus et formation des équipes. C'était ma première expérience sur un projet web de cette envergure, menée en collaboration avec un chef de projet et un prestataire technique.",
     objectif: "L'objectif principal était de moderniser l'image de MEGATEC en ligne, dans un contexte fort : l'entreprise venait d'être reprise et tout avait été refait locaux, équipe, positionnement. Le site devait refléter cette nouvelle ère et incarner ce renouveau. L'enjeu était double : gagner en crédibilité avec un design moderne et professionnel, et améliorer la visibilité de l'entreprise en ligne pour que les prospects trouvent une image cohérente avec la réalité du terrain. Le risque principal : un manque de synchronisation entre les acteurs (marketing, technique, direction) pouvant générer des allers-retours coûteux et diluer la cohérence du rendu final.",
  
@@ -141,8 +140,8 @@ lendemain : "La refonte du site a posé les bases d'une présence digitale cohé
     image : "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
     nom: "Onboarding Stagiaires",
  competences_mobilisees: [
-  { titre: "Pédagogie et transmission"},
-  { titre: "Autonomie opérationnelle"},
+  { titre: "Pédagogie et transmission", slug : "pédagogie-transmission"},
+  { titre: "Autonomie opérationnelle", slug : "autonomie-operationnelle"},
  ],
     presentation: "L'intégration d'un nouveau collaborateur est un moment clé qui conditionne sa rapidité à devenir opérationnel. Chez Rouge Rouge 3, j'ai pris en charge l'onboarding de 2 stagiaires et d'un employé appelé à me remplacer par la suite. L'enjeu était double : former rapidement sur les outils internes (CRM Zoho, campagnes marketing Zoho), et assurer une transmission complète des processus à l'employé pour garantir la continuité après mon départ.",
     objectif: "L'objectif était de rendre chaque personne opérationnelle sur ses outils le plus rapidement possible, avec un enjeu supplémentaire pour l'employé : qu'il soit capable d'assurer la continuité de mes missions sans perte d'information ni de qualité. L'enjeu pédagogique était de trouver le bon équilibre entre montrer, faire pratiquer et laisser faire. Le risque : une formation trop théorique sans pratique immédiate, qui n'aurait rien ancré ou un lâcher-prise trop rapide sans accompagnement suffisant, surtout pour la transmission à l'employé.",
@@ -182,11 +181,11 @@ lendemain : "Cette expérience a mis en évidence l'importance d'une passation s
     image : "https://plus.unsplash.com/premium_photo-1700830193308-73775665bcb0?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     nom: "Projet Espace Client",
  competences_mobilisees: [
-  { titre: "Écoute active"},
-  { titre: "Développement front-end (React)"},
-  { titre: "Intégration back-end & base de données (Supabase)"},
-  { titre: "Sécurité applicative (RLS)"},
-  { titre: "Versioning & déploiement (Git / Netlify)"},],
+  { titre: "Écoute active", slug : "ecoute-active"},
+  { titre: "Développement front-end (React)", slug : "developpement-frontend"},
+  { titre: "Intégration back-end & base de données (Supabase)", slug : "base-de-donnees-supabase"},
+  { titre: "Sécurité applicative (RLS)" , slug : "securite-rls"},
+  { titre: "Versioning & déploiement (Git / Netlify)" , slug : "versioning-deploiement"},],
     presentation: "Dans le cadre de la digitalisation de la relation client chez MEGATEC, un projet d'application Espace Client a été lancé. L'objectif : offrir aux clients un accès direct à leurs documents et fiches techniques, sans passer par les équipes internes pour chaque demande. J'ai mené ce projet du cadrage jusqu'au développement : recueil des besoins et cahier des charges, puis développement de l'application (front-end React, base de données et authentification via Supabase, sécurité des accès) et mise en ligne. Aujourd'hui, l'application permet à chaque client de se connecter à son espace de manière sécurisée et d'accéder uniquement à ses propres documents.",
     objectif: "L'objectif était de définir précisément ce que devait faire l'application avant que la moindre ligne de code ne soit écrite. L'enjeu : éviter le syndrome du tunnel développer une application qui ne correspond pas aux vrais besoins des utilisateurs faute d'un recueil suffisant. Le risque identifié : des attentes divergentes entre la direction (vision stratégique) et les utilisateurs finaux (usage quotidien), pouvant mener à des allers-retours en cours de développement.",
  
@@ -246,9 +245,9 @@ return (
       {/* Compétences mobilisées */}
       <div className="rounded-2xl border border-indigo-100 bg-indigo-50/60 p-4 mb-6">
         <h3 className="text-indigo-700 font-semibold mb-4">Compétences mobilisées</h3>
-        <div className="flex flex-wrap gap-3">
+                <div className="flex flex-wrap gap-3">
           {realisation.competences_mobilisees.map((comp, index) => (
-            <span key={index} className="border border-indigo-300 rounded-full px-4 py-1.5 text-sm text-indigo-700">{comp.titre}</span>
+            <Link key={index} to={`/competences/${comp.slug}`} className="border border-indigo-300 rounded-full px-4 py-1.5 text-sm text-indigo-700 transition hover:bg-indigo-100">{comp.titre} →</Link>
           ))}
         </div>
       </div>

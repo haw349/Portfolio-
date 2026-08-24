@@ -146,8 +146,10 @@ function CompetenceDetail() {
   type: "Compétence Technique",
   definition: "Le développement front-end consiste à construire toute la partie visible d'une application : les pages et les écrans avec lesquels l'utilisateur interagit directement. Je travaille avec React, qui permet de construire une interface à partir de composants des blocs réutilisables qui affichent différentes données sans avoir à les recoder à chaque fois et avec Tailwind pour la mise en forme. Chez MEGATEC, j'ai développé le front de l'espace client, et j'ai également codé ce portfolio.",
   autocritique: "Je sais coder des interfaces simples et fonctionnelles en React. Ma limite : sur les parties plus complexes, je m'appuie encore sur de l'aide et de la documentation technique. Cette compétence est centrale dans mon profil, puisqu'elle m'a permis de développer une application réellement utilisée.",
-  evolution: "Mon objectif des 18 prochains mois : développer des interfaces plus techniques en m'appuyant beaucoup moins sur la documentation et gagner en autonomie sur les fonctionnalités avancées.",
+  evolution: "Mon objectif des 18 prochains mois : développer des interfaces plus techniques et plus riches en fonctionnalités, en m'appuyant de moins en moins sur la documentation. Concrètement, je souhaite m'entraîner sur de nouveaux projets personnels et approfondir React pour gagner en autonomie sur les parties complexes.",
   preuves: [
+    { titre: "Navigation entre les pages", description: "J'ai mis en place la navigation du site : plusieurs pages reliées entre elles (accueil, compétences, réalisations, parcours), avec des liens permettant de passer d'une compétence à une réalisation et inversement." },
+{ titre: "Portfolio responsive", description: "J'ai développé ce portfolio pour qu'il s'adapte aux différentes tailles d'écran (ordinateur, mobile), afin qu'il reste lisible et utilisable partout." },
     { titre: "Front de l'espace client MEGATEC", description: "J'ai codé les écrans que l'utilisateur manipule une fois connecté : son tableau de bord, l'affichage de ses documents et fiches techniques, la liste des produits en location et la redirection vers le contact. L'interface s'adapte à chaque client connecté." },
     { titre: "Ce portfolio", description: "Développé en React et Tailwind. J'y ai créé des composants réutilisables (cartes de compétences, cartes de réalisations) : le code parcourt une liste et génère automatiquement l'affichage, au lieu d'écrire chaque bloc à la main." },
   ],
@@ -164,10 +166,11 @@ function CompetenceDetail() {
   type: "Compétence Technique",
   definition: "Le back-end et la base de données, c'est toute la partie invisible qui stocke les informations et les fournit à l'application. J'utilise Supabase, qui me sert à la fois de base de données (pour stocker et récupérer les données) et de système d'authentification sécurisé.",
   autocritique: "Je sais créer des tables simples, stocker et récupérer des données. Ma limite : je m'appuie encore sur de la documentation technique pour les opérations plus complexes. Cette compétence est essentielle dans mon profil, car c'est elle qui permet à mon application de fonctionner avec de vraies données.",
-  evolution: "Mon objectif des 18 prochains mois : gagner en autonomie sur la conception de bases de données et savoir écrire des requêtes plus complexes sans m'appuyer sur la documentation.",
+  evolution: "Mon objectif des 18 prochains mois : gagner en autonomie sur la conception de bases de données (mieux structurer mes tables et leurs relations) et savoir écrire des requêtes plus complexes sans m'appuyer sur la documentation.",
   preuves: [
+    { titre: "Structuration des données", description: "J'ai organisé les données de l'application dans différentes tables Supabase : les utilisateurs, leurs documents et les produits en location, afin que chaque information soit rangée logiquement et facile à récupérer." },
     { titre: "Base de données de l'espace client", description: "Les documents de chaque client et les informations produits sont stockés dans Supabase. Quand un client se connecte, l'application va récupérer ses documents dans la base et les affiche à l'écran." },
-    { titre: "Authentification sécurisée", description: "Je m'appuie sur le système Auth de Supabase : les mots de passe sont chiffrés et gérés par Supabase, de sorte que personne pas même moi n'a accès aux identifiants des clients en clair." },
+    { titre: "Authentification sécurisée", description: "Je m'appuie sur le système Auth de Supabase : les mots de passe sont chiffrés et gérés par Supabase, de sorte que personne, pas même moi n'a accès aux identifiants des clients en clair." },
   ],
   realisations: [
     { titre: "Projet Espace Client", slug: "espace-client" },
@@ -183,6 +186,7 @@ function CompetenceDetail() {
   autocritique: "J'ai réussi à mettre en place des règles RLS en m'appuyant sur de la documentation technique. Ma limite : la démarche n'est pas encore automatique pour moi, et je progresse encore sur les règles de sécurité plus avancées. Cette compétence est importante dans mon profil, car elle garantit la confidentialité des données clients un enjeu de confiance essentiel pour une entreprise.",
   evolution: "Mon objectif des 18 prochains mois : gagner en autonomie sur la mise en place des règles RLS et savoir écrire des règles de sécurité plus avancées sans m'appuyer sur la documentation.",
   preuves: [
+{ titre: "Un enjeu de confiance pour l'entreprise", description: "Garantir que chaque client n'accède qu'à ses propres documents, c'est un enjeu de confidentialité et de confiance essentiel pour une entreprise comme MEGATEC. La sécurité n'est pas une option technique : c'est une condition pour que les clients utilisent l'espace en confiance." },
     { titre: "Isolation des données clients", description: "Quand un client se connecte, il n'a accès qu'à ses propres documents ; il ne peut pas voir ceux des autres clients. Cette règle est appliquée au niveau de la base de données elle-même, pas seulement de l'affichage donc les données restent protégées même si l'interface était contournée." },
     { titre: "Authentification + sécurité", description: "Couplée au système Auth de Supabase, la RLS identifie chaque client connecté et ne lui renvoie que les données qui lui appartiennent." },
   ],
@@ -200,6 +204,7 @@ function CompetenceDetail() {
   autocritique: "Je comprends le fonctionnement de Git et de GitFlow, et je sais versionner mon code et déployer sur Netlify. Ma limite : je n'ai pas appliqué GitFlow assez tôt dans mon projet, donc je ne l'ai pas encore mis en œuvre en conditions réelles. Cette compétence est essentielle dans mon profil, car elle garantit de garder la main sur son projet et de toujours disposer d'un filet de sécurité.",
   evolution: "Mon objectif des 18 prochains mois : prendre l'habitude de démarrer chaque projet avec Git et GitFlow dès le départ, pour garantir la propreté du code, la traçabilité des versions et un filet de sécurité permanent. À terme, automatiser aussi la mise en ligne à chaque modification.",
   preuves: [
+    { titre: "Utilisation de Git au quotidien", description: "Sur ce portfolio, je sauvegarde mon travail avec des commits réguliers à chaque étape (git add / commit), ce qui me permet de suivre l'évolution du projet et de revenir à une version stable en cas de problème." },
     { titre: "Versioning avec Git", description: "J'ai connecté mon dépôt GitHub à mon projet portfolio via le terminal de mon IDE, pour sauvegarder mon code, suivre son historique et pouvoir revenir à une version antérieure." },
     { titre: "Déploiement sur Netlify", description: "J'ai mis mon portfolio en ligne sur Netlify, le rendant accessible par une URL publique. J'ai également déployé l'application espace client MEGATEC sur Netlify." },
 
