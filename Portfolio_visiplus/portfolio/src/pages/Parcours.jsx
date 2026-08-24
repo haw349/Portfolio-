@@ -98,35 +98,40 @@ function Parcours() {
             Du plus récent au plus ancien. Cliquez sur une entrée pour le détail.
           </p>
 
-          <div className="space-y-8">
-            {parcours.map((item, index) => (
-              <div key={index} className="flex gap-6">
+                    {/* Frise : formations à gauche, expériences à droite */}
+          <div className="relative">
+            {/* Ligne verticale centrale (desktop uniquement) */}
+            <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-indigo-200 -translate-x-1/2"></div>
 
-                               {/* Logo à gauche (cliquable) */}
-                <div className="flex flex-col items-center">
-                  <a href={item.site} target="_blank" rel="noopener noreferrer" title={`Voir le site de ${item.organisation}`}>
-                    <div className="w-16 h-16 rounded-full bg-slate-800 flex items-center justify-center p-1.5 transition hover:ring-2 hover:ring-indigo-400 cursor-pointer">
-                      <img src={item.logo} alt={item.organisation} className="max-h-full max-w-full object-contain" />
+            <div className="space-y-8">
+              {parcours.map((item, index) => {
+                const estFormation = item.type.includes("Formation")
+                return (
+                                    <div key={index} className={`md:flex md:gap-8 ${estFormation ? "md:justify-start" : "md:justify-end"}`}>
+                    <div className="md:w-1/2">
+                      <div className="flex gap-4 items-start">
+                        <a href={item.site} target="_blank" rel="noopener noreferrer" title={`Voir le site de ${item.organisation}`}>
+                          <div className="w-16 h-16 rounded-full bg-slate-800 flex items-center justify-center p-1.5 transition hover:ring-2 hover:ring-indigo-400 cursor-pointer shrink-0">
+                            <img src={item.logo} alt={item.organisation} className="max-h-full max-w-full object-contain" />
+                          </div>
+                        </a>
+                        <div>
+                          <div className="flex gap-2 mb-2 flex-wrap">
+                            <span className="bg-gray-900 text-white text-xs px-3 py-1 rounded-full font-semibold">{item.date}</span>
+                            <span className="bg-indigo-50 text-indigo-600 text-xs px-3 py-1 rounded-full font-semibold">{item.type}</span>
+                          </div>
+                          <p className="font-semibold text-lg">{item.titre}</p>
+                          <p className="text-indigo-700 text-sm font-semibold">{item.organisation}</p>
+                          <button onClick={() => setSelected(item)} className="text-gray-400 text-sm mt-2">Voir le détail →</button>
+                        </div>
+                      </div>
                     </div>
-                  </a>
-                </div>
-
-                {/* Contenu */}
-                <div>
-                  <div className="flex gap-3 mb-2">
-                    <span className="bg-gray-900 text-white text-xs px-3 py-1 rounded-full font-semibold ">{item.date}</span>
-                    <span className="bg-indigo-50 text-indigo-600 text-xs px-3 py-1 rounded-full font-semibold">{item.type}</span>
                   </div>
-                  <p className="font-semibold text-lg">{item.titre}</p>
-                  <p className=" text-indigo-700 text-sm font-semibold ">{item.organisation}</p>
-                  <button onClick={() => setSelected(item)} className="text-gray-400 text-sm mt-2">Voir le détail →</button>
-                </div>
-
-              </div>
-            ))}
+                )
+              })}
+            </div>
           </div>
-
-        </div>
+ </div>
       </section>
 
       {selected && (
