@@ -15,6 +15,7 @@ function Parcours() {
       competences: ["Rigueur budgétaire", "Autonomie opérationnelle", "Pédagogie et transmission", "Écoute active", "Coordination d'équipes", "Développement front-end (React)", "Intégration back-end & base de données (Supabase)", "Sécurité applicative (RLS)", "Versioning & déploiement (Git / Netlify)", "Intégration d'ERP"],
       soustitre: "Étudiante en alternance - Ingénierie Logicielle",
       description: "ISCOD est une école spécialisée dans la formation par alternance, orientée vers les métiers du numérique et du management. La pédagogie est axée sur la pratique en entreprise, avec un accompagnement en ligne. Ce format m'a permis de monter en compétence directement sur le terrain, en parallèle de modules théoriques sur la gestion de projet, les systèmes d'information et le développement logiciel.",
+      site: "https://online.iscod.fr/",
     },
     {
       slug: "dev",
@@ -27,6 +28,7 @@ function Parcours() {
       competences: ["Rigueur budgétaire", "Autonomie opérationnelle", "Pédagogie et transmission", "Écoute active", "Coordination d'équipes", "Développement front-end (React)", "Intégration back-end & base de données (Supabase)", "Sécurité applicative (RLS)", "Versioning & déploiement (Git / Netlify)", "Intégration d'ERP"],
       soustitre: "Alternante - Chef de projet digital junior",
       description: "MEGATEC est une PME spécialisée dans la mesure de la qualité de l'air et des environnements industriels. J'y ai piloté la digitalisation des processus internes (déploiement ERP Dolibarr), la refonte du site web (CMS Strapi), l'organisation du Salon Pollutec Lyon 2025, et j'ai développé l'application Espace Client (React, Supabase, sécurité RLS, déploiement). Mon rôle m'a placée à l'interface entre les équipes métiers, la direction et les prestataires techniques.",
+      site: "https://megatec.fr/",
     },
     {
       slug: "etudiante-projet",
@@ -38,6 +40,7 @@ function Parcours() {
       competences: ["Autonomie opérationnelle", "Coordination d'équipes"],
       soustitre: "Étudiante en alternance - Chargée de projet digital",
       description: "Première formation en alternance chez ISCOD, spécialisée dans la gestion de projet digital. Cette période m'a permis d'acquérir les bases du pilotage de projets numériques, de la communication digitale et de la coordination d'équipes, en parallèle de la pratique terrain chez MEGATEC.",
+      site: "https://online.iscod.fr/",
     },
     {
       slug: "alternante-projet",
@@ -50,6 +53,7 @@ function Parcours() {
       competences: ["Autonomie opérationnelle", "Pédagogie et transmission", "Coordination d'équipes"],
       soustitre: "Alternante — Chargée de projet digital",
       description: "Première expérience en alternance chez MEGATEC, avant de poursuivre en Ingénierie Logicielle. J'ai commencé à prendre en main les projets de digitalisation et de communication de l'entreprise, posant les bases de mon rôle de chef de projet digital.",
+      site: "https://megatec.fr/",
     },
     {
       slug: "etudiante-NDRC",
@@ -62,6 +66,7 @@ function Parcours() {
       competences: ["Pédagogie et transmission", "Coordination d'équipes"],
       soustitre: "Étudiante en alternance — préparation BTS",
       description: "Formation en alternance chez Paris BTS, préparant un BTS en parallèle d'une expérience terrain chez Rouge Rouge 3. Développement de compétences en gestion, communication et prospection commerciale.",
+      site: "https://paris-bts.com/",
     },
     {
       slug: "alternante-propect",
@@ -74,6 +79,7 @@ function Parcours() {
       competences: ["Pédagogie et transmission", "Coordination d'équipes"],
       soustitre: "Alternante — Chargée de prospection et communication",
       description: "Rouge Rouge 3 est une agence artistique indépendante. J'y ai assuré la prospection de nouveaux artistes, la gestion des outils CRM Zoho et des campagnes marketing, ainsi que l'onboarding de 2 stagiaires et d'un employé appelé à me succéder.",
+      site: "https://rougerouge3.com",
     },
   ]
 
@@ -96,11 +102,13 @@ function Parcours() {
             {parcours.map((item, index) => (
               <div key={index} className="flex gap-6">
 
-                {/* Logo à gauche */}
+                               {/* Logo à gauche (cliquable) */}
                 <div className="flex flex-col items-center">
-                  <div className="w-20 h-20 rounded-full bg-slate-800 flex items-center justify-center p-2">
-                    <img src={item.logo} alt={item.organisation} className="max-h-full max-w-full object-contain" />
-                  </div>
+                  <a href={item.site} target="_blank" rel="noopener noreferrer" title={`Voir le site de ${item.organisation}`}>
+                    <div className="w-16 h-16 rounded-full bg-slate-800 flex items-center justify-center p-1.5 transition hover:ring-2 hover:ring-indigo-400 cursor-pointer">
+                      <img src={item.logo} alt={item.organisation} className="max-h-full max-w-full object-contain" />
+                    </div>
+                  </a>
                 </div>
 
                 {/* Contenu */}
